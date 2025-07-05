@@ -31,9 +31,11 @@ nav {
     background: blueviolet;
 
     display: flex;
+    flex: 1 1 auto;
     /* height: 100px; */
-
+    width: 100%;
     margin: 0 auto;
+    align-items: center;
     /* max-width: 90vw; */
     /* grid-column: 1/4; */
 
@@ -42,6 +44,7 @@ nav {
 .navigation_buttons {
     margin-top: 0px;
     width: 100%;
+    /* display: block; */
     text-align: center;
     /* display: inline-flex; */
     /* display: flex; */
