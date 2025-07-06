@@ -1,0 +1,33 @@
+* {
+    font-family:
+        /* INSERT GOOGLE LINK TO FONT FAMILY HERE */
+    ;
+    color-scheme:
+        /* INSERT COLOR SCHEME HERE??? */
+    ;
+}
+
+span {
+    display: block;
+}
+
+nav {
+    display: flex;
+
+}
+
+nav a:hover {
+    /* INSERT WELL-DESIGNED HOVOR EFFECT */
+    text-decoration: wavy overline;
+}
+
+main {
+    /* Width can be any, just needs to be a fixed value */
+    width: 500px;
+    text-align: center;
+
+}
+
+main .card {
+    display: grid;
+}
