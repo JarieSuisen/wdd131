@@ -7,6 +7,14 @@
 <meta description="WDD 131 – Dynamic Web Fundamentals - Jacob Litster - Keyword summary of the page content">
 <meta author="Jacob Litser">
 
+<!-- icon stuff, because I can -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<link rel="manifest" href="images/site.webmanifest">
+
+<!-- Call CSS and Javascript external files -->
+<link type="text/css" rel="stylesheet" href="styles/base.css">
 <script src="scripts/getdates.js" defer></script>
 
 </head>
@@ -18,36 +26,76 @@
         <span id="course-title">"WDD 131 – Dynamic Web Fundamentals"</span>
 
         <nav>
-            <a href="https://www.linkedin.com/in/jacoblitster/">LinkedIn</a>
-            <a href="https://byupw.instructure.com/">Canvas</a>
-            <a href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=eng&id=p24#p24">Scripture</a>
-            <a href="#">Final Project</a>
+            <ul>
+                <a href="https://www.linkedin.com/in/jacoblitster/">LinkedIn</a>
+                <a href="https://byupw.instructure.com/">Canvas</a>
+                <a
+                    href="https://www.churchofjesuschrist.org/study/scriptures/nt/matt/6?lang=eng&id=p24#p24">Scripture</a>
+                <a href="#">Final Project</a>
+            </ul>
         </nav>
 
     </header>
 
 
     <main>
-        <h1>Jacob Litster</h1>
+        <h1 class="titlename">Jacob Litster</h1>
 
         <!-- NOTE: The images need to be OPTIMIZED! No huge sizes, awkward resolutions, etc. -->
         <!-- THIS IS SECTION 7 OF THE ASSIGNMENT -->
         <Section class="card">
-            <h2>About Me?</h2>
-            <img href="">
-            <img href="">
-            <p>
-                <!-- CONTENT HERE -->
-            </p>
+            <div class="leftcard">
+                <h2>About Me</h2>
+                <div class="topsection">
+                    <p>
+                        Hello! I'm Jacob Litster. Born in 1988 in Rochester, New York, USA but I have lived in various
+                        parts
+                        of mid-Northern Utah nearly my whole life. I was named after Jacob, the brother of Nephi in the
+                        Book
+                        of Mormon.
+                    </p>
+                    <div class=image>
+                        <img class="image" src="images/my-photo-fitted-narrow.jpg" alt="Image of me, Jacob!">
+                        <!-- This is me! -->
+                    </div>
+                </div>
+                <p>
+                    ----------------------------------------
+                </p>
+
+                <h2>
+                    Utah, USA
+                </h2>
+                <div class="bottomsection">
+                    <p>
+                        Utah is a desert climate and the location where the Church of Jesus Christ ended up finally
+                        relocating to after being forced to escape from the trials in the eastern United States. Several
+                        of my ancestors were among those pioneers, one of whose testimony, Jacob Hamblin, was stated by
+                        the judge ruling on the Mountain Meadow tragedy to be the sole reason Brigham Young was not
+                        executed for those events.
+                    </p>
+                    <img class="image" src="images/utah-flag-fitted.jpg" alt="Utah Flag">
+                </div>
+            </div>
         </Section>
 
         <Section class="card">
-            <h2>Web Dev Resources ???</h2>
-            <img href="">
-            <img href="">
-            <p>
-                <!-- CONTENT HERE -->
-            </p>
+            <div class="rightcard">
+                <h2>Web Dev Resources</h2>
+                <img class="image" src="images/" alt="ALTTEXT HERE">
+
+                <p>
+                <ul>
+                    <li><a href="#">Dev.to Community</a></li>
+                    <li><a href="#">Smashing Magazine</a></li>
+                    <li><a href="#">CSS Tricks</a></li>
+                    <li><a href="#">W3 Schools</a></li>
+                    <li><a href="#">Udemy</a></li>
+                    <li><a href="#">Image Placeholder</a></li>
+
+                </ul>
+                </p>
+            </div>
         </Section>
 
     </main>
@@ -58,8 +106,8 @@
         <p>
             &copy;<span id="currentyear"></span> - Jacob Litster - Utah, United States of America
         </p>
-
-        <p id="lastModified">
+        <p>
+            Last Modified: <span id="lastModify"></span>
             <!-- JAVASCRIPT CODE WILL auto-FILL THIS IN -->
         </p>
 
