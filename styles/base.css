@@ -102,7 +102,7 @@ nav {
 
 }
 
-nav ul {
+nav div {
     /* border: 1px solid #ff0000; */
     margin: 0 auto;
 
@@ -126,7 +126,7 @@ a {
 
 a:hover {
     /* INSERT WELL-DESIGNED HOVOR EFFECT */
-    text-decoration: wavy overline;
+    text-decoration: wavy underline;
 
     color: #742a5f;
     background: #2ca3b8d0;
