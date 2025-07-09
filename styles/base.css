@@ -7,11 +7,11 @@
     /* border: 1px solid #00ff00; */
 
     /* change the values below to your colors from your palette */
-    --primary-color: #1f7c8c;
-    --secondary-color: #24c7cf;
-    --accent1-color: #d5e0ee;
-    --accent2-color: #7d8c96;
-    --accent3-color: #d57dbc;
+    --background: #2c2c2c;
+    --text-main: #e4e4e4;
+    --accent1: #a8dadc;
+    --accent2: #ffc1cc;
+    --accent3: #b39cd0;
 
 
     /* change the values below to your chosen font(s) */
@@ -20,6 +20,8 @@
     /* USE THIS TO CALL THE FONT SELECTION:
         font-family: var(--heading-font);
     */
+
+
 
     --paragraph-font: "Noto Serif JP, Noto Sans JP, Helvetica, sans-serif";
     /* USE THIS TO CALL THE FONT SELECTION:
@@ -53,7 +55,7 @@
 
 body {
     /* border: 1px solid #000000; */
-    background: #7d8c96;
+    background: var(--background);
 
     margin: 0 auto;
 
@@ -63,12 +65,13 @@ h1,
 h2,
 h3 {
     font-family: var(--heading-font);
+    color: var(--accent3)
 }
 
 h2 {}
 
 p {
-    color: #d5e0ee;
+    color: var(--text-main);
     font-family: var(--paragraph-font);
 }
 
@@ -94,7 +97,7 @@ nav {
     /* border: 1px solid #00ff00; */
     /* border: 1px solid #ff0000; */
 
-    background: #1f7c8c;
+    background: var(--accent1);
     /* max-width: auto; */
     /* display: flex; */
     /* text-align: center; */
@@ -123,6 +126,12 @@ a {
 
 }
 
+a:link {}
+
+a:visited {
+    color: rgba(84, 84, 179, 0.603);
+}
+
 
 a:hover {
     /* INSERT WELL-DESIGNED HOVOR EFFECT */
@@ -137,7 +146,7 @@ a:hover {
 main {
     /* border: 1px solid #ffff00; */
 
-    background: #7d8c96;
+    background: var(--background);
 
     /* margin: 0 auto; */
 
@@ -178,7 +187,7 @@ main .card .img {
 
     padding: 10px;
 
-    border: 2px solid #000000;
+    border: 2px solid #522b91;
     border-radius: 5%;
 
 }
@@ -214,7 +223,7 @@ main .card .img {
 
     padding: 10px;
 
-    border: 2px solid #000000;
+    border: 2px solid #522b91;
     border-radius: 10%;
 }
 
