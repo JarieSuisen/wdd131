@@ -17,7 +17,7 @@
 
     /* COLOR SCHEMA */
     --background: #0;
-    --header-bg: #1f7c8c;
+    --header-bg: #14515C;
     --header-text: #ffffff;
     --text-main: #0;
     --accent1: #0;
@@ -96,8 +96,14 @@ nav {
 
     padding: 1rem;
     text-align: center;
+    text-decoration: none;
 
 }
+
+.navigation a:visited {
+    color: #ffffff;
+}
+
 
 ul {}
 
@@ -161,7 +167,7 @@ footer {
     /* NOTHING??? */
     /* border: 1px solid #000fff; */
 
-    background: #1f7c8c;
+    background: #14515C;
     color: #ffffff;
 
     max-height: none;

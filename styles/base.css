@@ -38,7 +38,7 @@
     --headline-color-on-color: #d5e0ee;
 
     /* paragraph text on a white background */
-    --paragraph-color-on-white: #1f7c8c;
+    --paragraph-color-on-white: #14515C;
 
     /* paragraph text on a colored background */
     --paragraph-color-on-color: #d5e0ee;
@@ -48,7 +48,7 @@
 
     /* nav section colors */
     --nav-link-color: #24c7cf;
-    --nav-background-color: #1f7c8c;
+    --nav-background-color: #14515C;
     --nav-hover-link-color: #d57dbc;
     --nav-hover-background-color: #d5e0ee;
 }
@@ -77,14 +77,14 @@ h2 {}
 }
 
 p {
-    color: var(--text-main);
+    /* color: var(--text-main); */
     font-family: var(--paragraph-font);
 }
 
 header {
     /* border: 1px solid #ff00ff; */
-    background: #379daf;
-    color: 000000;
+    background: #14515C;
+    color: #ffffff;
 
 
 }
@@ -132,14 +132,17 @@ a {
 
 }
 
-a:link {}
+nav div a:link {
+    text-decoration: none;
+}
 
-a:visited {
+nav div a:visited {
     color: rgba(84, 84, 179, 0.603);
+    text-decoration: none;
 }
 
 
-a:hover {
+nav div a:hover {
     /* INSERT WELL-DESIGNED HOVOR EFFECT */
     text-decoration: wavy underline;
 
@@ -249,7 +252,9 @@ main .card .img {
 footer {
     /* border: 1px solid #000fff; */
 
-    background: #1f7c8c;
+    background: #14515C;
+
+    color: #ffffff;
 
     max-height: none;
     /* min-height: 100vh; */
