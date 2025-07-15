@@ -3,8 +3,7 @@
 
 /* UNIVERSAL ASPECTS */
 * {
-    /* REVEAL ALL BORDERS */
-    /* border: 1px solid #00ff00; */
+    REVEAL ALL BORDERS border: 1px solid #00ff00;
 
     --heading-font: "Zen Antique Soft, Noto Sans JP, Helvetica, sans-serif";
     /* USE THIS TO CALL THE FONT SELECTION:
@@ -76,14 +75,15 @@ nav {
 .navigation {
     display: flex;
     font-size: 50px;
-    list-style: none;
+    /* list-style: none; */
+
     /* justify-content: space-evenly; */
 
     flex-direction: column;
     justify-content: space-evenly;
     width: 100%;
     margin: 0 auto;
-    list-style: none;
+
     /* background-color: #a93ead; */
     color: #fff;
 
@@ -107,7 +107,7 @@ nav {
 
 ul {}
 
-li a {
+div a {
     font-size: 30px;
 }
 
@@ -137,7 +137,6 @@ main {
 
 
 
-
     /* REQRUIED IN MAIN */
     max-width: 1200px;
     margin: 0 auto;
@@ -145,16 +144,18 @@ main {
 
 .temple-images {
     /* display: inline; */
-    display: flex;
+    display: grid;
+
     flex-wrap: wrap;
+    text-align: center;
 
 }
 
 figure {
     width: 200px;
-    /* display: inline-block; */
-    /* display: flex;
-    flex-wrap: wrap; */
+
+
+
 
 }
 

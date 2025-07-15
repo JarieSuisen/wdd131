@@ -37,14 +37,11 @@
     .navigation a {
         display: block;
 
-
-
-
-
-
-
     }
 
+    .temple-images {
+        grid-template-columns: repeat(4, 1fr);
+    }
 
 
 }
