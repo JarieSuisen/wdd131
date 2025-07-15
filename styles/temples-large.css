@@ -37,7 +37,7 @@
     .navigation a {
         display: block;
 
-        /* flex: 1 1 100%; */
+
 
 
 
@@ -46,22 +46,6 @@
     }
 
 
-    /* EXAMPLE STUFF */
-
-    /* hide hamburger button */
-    /* #menu {
-        display: none;
-    } */
-
-
-    /* .navigation {
-        flex-direction: row;
-    } */
-
-    /* .navigation a {
-        display: block;
-        flex: 1 1 100%;
-    } */
 
 }
 
