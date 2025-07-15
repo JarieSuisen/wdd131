@@ -3,7 +3,7 @@
 
 /* UNIVERSAL ASPECTS */
 * {
-    REVEAL ALL BORDERS border: 1px solid #00ff00;
+    /* REVEAL ALL BORDERS border: 1px solid #00ff00; */
 
     --heading-font: "Zen Antique Soft, Noto Sans JP, Helvetica, sans-serif";
     /* USE THIS TO CALL THE FONT SELECTION:
