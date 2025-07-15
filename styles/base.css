@@ -162,7 +162,7 @@ main {
     display: grid;
 
     /* THE FOLLOWING IS REQUIRED FOR THIS SPOT*/
-    width: 800px;
+    max-width: 1200px;
     /* Width can be any fixed value */
     text-align: center;
 }
@@ -179,7 +179,13 @@ main .card {
     /* display: grid;*/
     grid-row: 2/3;
     display: flex;
+    
+    text-align: center;
 
+}
+
+.card {
+    text-align: center;
 }
 
 main .card .p {
