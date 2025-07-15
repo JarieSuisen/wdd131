@@ -1,0 +1,72 @@
+@media only screen and (min-width: 37.5em) {
+
+
+    /* HIDE HAMBURGER MENU */
+    #menu {
+        display: none;
+    }
+
+    body {
+        /* color: aqua; */
+    }
+
+
+    header {
+        display: flex;
+    }
+
+    figure {
+        width: 200px;
+        display: inline-block;
+        text-align: center;
+        margin: 1 auto;
+    }
+
+    img {
+        image-rendering: auto;
+
+    }
+
+    .navigation {
+        flex-direction: row;
+
+
+        /* background-color: brown; */
+    }
+
+    .navigation a {
+        display: block;
+
+        /* flex: 1 1 100%; */
+
+
+
+
+
+    }
+
+
+    /* EXAMPLE STUFF */
+
+    /* hide hamburger button */
+    /* #menu {
+        display: none;
+    } */
+
+
+    /* .navigation {
+        flex-direction: row;
+    } */
+
+    /* .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    } */
+
+}
+
+body {}
+
+main {}
+
+nav {}

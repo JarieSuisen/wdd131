@@ -7,11 +7,11 @@
     /* border: 1px solid #00ff00; */
 
     /* change the values below to your colors from your palette */
-    --background: #020264;
-    --text-main: #87aff1;
+    --background: #ffffff;
+    --text-main: #000000;
     --accent1: #a8dadc;
     --accent2: #ffc1cc;
-    --accent3: #b39cd0;
+    --accent3: #250cb1;
 
 
     /* change the values below to your chosen font(s) */
@@ -59,6 +59,8 @@ body {
 
     margin: 0 auto;
 
+    /* padding-left: 100%; */
+
 }
 
 h1,
@@ -70,6 +72,10 @@ h3 {
 
 h2 {}
 
+.card-top {
+    background: #000000
+}
+
 p {
     color: var(--text-main);
     font-family: var(--paragraph-font);
@@ -78,7 +84,7 @@ p {
 header {
     /* border: 1px solid #ff00ff; */
     background: #379daf;
-
+    color: 000000;
 
 
 }
@@ -170,6 +176,7 @@ main .card {
     /* display: grid;*/
     grid-row: 2/3;
     display: flex;
+
 }
 
 main .card .p {
