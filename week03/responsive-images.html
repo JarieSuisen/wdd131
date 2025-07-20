@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GIVE A TITLE -->
+    <title>Responsive Images - Temples</title>
+
+    <!-- ADD META OF "DESCRIPTION" AND "AUTHOR" -->
+    <meta name="description" content="Learning Responsive Images">
+    <meta name="author" content="Jacob Litster">
+
+    <!-- ADD LINKS TO CSS AND JS SHEETS -->
+    <link type="text/css" rel="stylesheet" href="styles/responsive-images.css">
+    <!-- <script src="scripts/JAVASCRIPTSHEET.js" defer></script> -->
+
+</head>
+
+<body>
+
+
+    <main>
+
+        <div class="hero">
+
+            <picture>
+
+                <source srcset="images/hero-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero-small.webp" alt="Sapporo, Japan Temple" width="400" height="200">
+
+            </picture>
+
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
