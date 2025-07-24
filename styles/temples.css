@@ -75,7 +75,7 @@ nav {
 .navigation {
     display: flex;
     font-size: 50px;
-    
+
 
     /* justify-content: space-evenly; */
 
@@ -161,7 +161,7 @@ figure {
 
 img {
     image-rendering: auto;
-
+    width: 100%;
 }
 
 footer {

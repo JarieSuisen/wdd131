@@ -1,0 +1,55 @@
+* {
+    text-align: center;
+
+    /* REMOVE WHEN NOT NEEDED */
+    /* border: 1px solid black; */
+}
+
+body {
+    /* REMOVE WHEN NOT NEEDED */
+    /* border: none; */
+}
+
+html {
+    /* REMOVE WHEN NOT NEEDED */
+    /* border: none; */
+}
+
+table {
+
+    /* OKAY, so you can just store elements inside a parent element to contain its effects to that area? WHY WAS THIS NOT BROUGHT UP EARLIER!!??? */
+
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+
+    caption {
+        /* display: none; */
+        caption-side: bottom;
+        font-size: smaller;
+        padding: 0.2rem;
+    }
+
+    thead {
+        background-color: black;
+        color: white;
+
+    }
+
+    .feature {
+        background-color: rgba(90, 90, 90, 0.829);
+    }
+
+    tbody tr:nth-child(even) {
+        background-color: rgba(90, 90, 90, 0.29);
+
+    }
+
+    th,
+    td {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        white-space: pre;
+    }
+
+
+
+}

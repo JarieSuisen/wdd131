@@ -1,0 +1,56 @@
+PROJECT GUIDELINES
+-------------------------------------
+This project will be of your own design and development.
+You may not consult nor work with any other individual nor group on the project.
+The content and subject comes from your topic proposal, and the site should be complete without any placeholders.
+
+CONTENT REFERENCES-------------------------------------
+The images and brief verbiage may be referenced from other sources, and you will need to cite these sources on a separate page.
+Link this reference page (which does not need to be styled) in the footer of your website.
+
+MINIMUM REQUIREMENTS-------------------------------------
+These are the minimum specifications for the project.
+You are encouraged to go above and beyond these requirements to demonstrate your mastery of the course learning outcomes.
+
+-Your website project must be hosted on GitHub and rendered via GitHub Pages.
+-The website must consist of at least
+    -three (3) pages
+    -with a common navigation and theme that appeals to the target audience.
+-The site must have significant and relevant content that supports the purpose of the site as outlined in your website plan.
+-The design must support:
+    -accessibility, 
+    -usability, 
+    -visual appeal, and 
+    -design principles.
+-Structure the pages with valid, standards-based HTML markup.
+-Style the site with valid CSS and 
+    -DOES NOT contain unused and unnecessary (duplicate) declarations and rules.
+-Style the site so that it is responsive to mobile (portrait and landscape modes) and larger screen views without violating PARC design principles.
+-All images must be optimized.
+-Use a "lazy loading" technique to support progressive design.
+-Use an HTML form that meets the standards presented in the course.
+
+The site must have dynamic elements powered by Javascript including the following:
+✔ Have more than one function,
+✔ Include DOM interaction including selecting an element, modifying it, and listening for and reacting to events,
+✔ Use conditional branching,
+✔ Use objects, arrays, and array methods,
+✔ Exclusively use template literals when building strings for output
+✔ Use localStorage.
+
+Ensure there are no spelling or grammatical errors.
+
+Complete the project by the due date.
+
+
+TESTING-------------------------------------
+
+Use the browser's (ie: GOOGLE CHROME) DevTools to check for JavaScript runtime errors in the console or click the red, error icon in the upper right corner of DevTools.
+Use DevTools CSS Overview (CHROME) to check your color contrast.
+Generate the DevTools Lighthouse (CHROME) report and run diagnostics for Performance, Accessibility, Best Practices, and SEO in both the mobile and desktop views.
+
+
+SUBMISSION------------------------------------
+Your project should be stored in its own subfolder within your wdd131 repository.
+Return to Canvas and submit the project's URL.
+

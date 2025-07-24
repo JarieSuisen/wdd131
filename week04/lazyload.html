@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GIVE A TITLE -->
+    <title>TITLE HERE</title>
+
+    <!-- ADD META OF "DESCRIPTION" AND "AUTHOR" -->
+    <meta name="description" content="DESCRIPTION HERE">
+    <meta name="author" content="YOURNAMEHERE">
+
+    <!-- ADD LINKS TO CSS AND JS SHEETS -->
+    <link type="text/css" rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+</head>
+
+<body>
+
+    <h1>lazyload images</h1>
+
+    <picture><img src="images/hero.webp" alt="testimage" loading="lazy" width="400"></picture>
+    <p>text Here</p>
+    <picture><img src="images/hero2.webp" alt="testimage+1" loading="lazy" width="300"></picture>
+    <picture><img src="images/hero3.webp" alt="testimage+2" loading="lazy" width="500"></picture>
+    <picture><img src="images/hero4.webp" alt="testimage+3" loading="lazy" width="600"></picture>
+    <picture><img src="images/hero5.webp" alt="testimage+4" loading="lazy" width="250"></picture>
+
+    <p> STILL NO EVIDENCE OF LAZY LOADING. sigh.</p>
+    <picture><img src="images/hero6.webp" alt="testimage+5" loading="lazy" width="400"></picture>
+
+
+
+    <footer>
+        Current Year: <span id="currentyear"></span><br>
+        Last Modified: <span id="lastModify"></span>
+    </footer>
+</body>
+
+
+
+
+</html>

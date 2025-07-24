@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    display: block;
+    background: black;
+    animation: fade 5s;
+
+    /* 
+    text-align: center;
+    margin: 0 auto;
+    animation: normal;
+    fill-opacity: 0; */
+}
+
+/* NOT LIKE WE WERE TAUGHT THIS, even though that would have been cool */
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

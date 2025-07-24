@@ -1,0 +1,63 @@
+* {
+    /* REVEAL ALL BORDERS */
+    /* border: 1px solid #00ff00; */
+
+}
+
+
+body {
+    background: #7e4607;
+
+}
+
+h1 {
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+main {
+    /* text-align: center; */
+}
+
+picture.hero {}
+
+.card {
+    text-align: center;
+    background: white;
+    margin: 0 auto;
+}
+
+.card-label {
+
+    background: #ffa500;
+    margin: 0 auto;
+}
+
+.card-content {
+    background: white;
+    display: grid;
+    grid-template-columns: auto auto;
+    max-width: 25rem;
+    margin: 0 auto;
+}
+
+.card-left {
+    text-align: right;
+
+}
+
+.card-right {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+    background: #7e4607;
+
+/* FOR EASIER NOTICING, REMOVE WHEN READY */
+    background: #ffa500;
+    
+}
