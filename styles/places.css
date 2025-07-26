@@ -4,10 +4,17 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
 
 :root {
-    background: #7e4607;
+    --background-color: #7e4607;
+    --heading-font: "Noto Sans JP, Helvetica, sans-serif";
+
+    background: var(--background-color);
+    font: var(--heading-font);
     text-align: center;
+
 }
 
 body {
@@ -26,6 +33,11 @@ main {
 }
 
 picture.hero {}
+
+img {
+    /* width: 100%; */
+    margin: 0 auto;
+}
 
 .card {
     text-align: center;
