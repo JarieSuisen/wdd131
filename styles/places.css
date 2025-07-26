@@ -66,18 +66,20 @@ img {
 .card-content {
     background: white;
     display: grid;
-    grid-template-columns: auto auto;
+    /* grid-template-columns: auto 2px auto; */
     max-width: 25rem;
     margin: 0 auto;
 }
 
 .card-left {
     text-align: right;
+    grid-column: 1/2;
 
 }
 
 .card-right {
     text-align: left;
+    grid-column: 3/4;
 }
 
 footer {
