@@ -5,8 +5,13 @@
 }
 
 
-body {
+:root {
     background: #7e4607;
+    text-align: center;
+}
+
+body {
+    /* background: #7e4607; */
 
 }
 
@@ -14,9 +19,7 @@ h1 {
     color: white;
 }
 
-header {
-    text-align: center;
-}
+header {}
 
 main {
     /* text-align: center; */
@@ -57,7 +60,7 @@ footer {
     text-align: center;
     background: #7e4607;
 
-/* FOR EASIER NOTICING, REMOVE WHEN READY */
+    /* FOR EASIER NOTICING, REMOVE WHEN READY */
     background: #ffa500;
-    
+
 }

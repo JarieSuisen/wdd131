@@ -8,7 +8,7 @@ const docWindchill = document.querySelector("#windchill");
 
 // SET VARIABLES - WILL BE CHANGED TO LOAD FROM OUTSIDE SOURCE
 let temperature = 85; // DEFAULT VALUE, IN FARENHEIT
-let weather = 'Clearer Skies (I WISH)'; // THIS IS A DESCRIPTION
+let weather = 'Clear Skies'; // THIS IS A DESCRIPTION
 let windspeed = 4; // DEFAULT VALUE, IN MPH
 // let windchill = 0.5; // THIS IS JUST A DEFAULT VALUE
 // let windchill = determinator();
