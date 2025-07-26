@@ -1,0 +1,181 @@
+/* IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP&family=Zen+Antique+Soft&display=swap');
+
+/* UNIVERSAL ASPECTS */
+* {
+    /* REVEAL ALL BORDERS border: 1px solid #00ff00; */
+
+    --heading-font: "Zen Antique Soft, Noto Sans JP, Helvetica, sans-serif";
+    /* USE THIS TO CALL THE FONT SELECTION:
+        font-family: var(--heading-font);
+    */
+    --paragraph-font: "Noto Serif JP, Noto Sans JP, Helvetica, sans-serif";
+    /* USE THIS TO CALL THE FONT SELECTION:
+        font-family: var(--paragraph-font);
+    */
+
+    /* COLOR SCHEMA */
+    --background: #0;
+    --header-bg: #14515C;
+    --header-text: #ffffff;
+    --text-main: #0;
+    --accent1: #0;
+    --accent2: #0;
+    --accent3: #0;
+
+
+}
+
+body {}
+
+header {
+    /* display: flex; */
+    /* font-size:50px; */
+    background: var(--header-bg);
+    color: var(--header-text);
+}
+
+header h1 {
+    display: block;
+    margin: 5px;
+
+
+}
+
+nav {
+
+    /* max-width: 700px; */
+    /* text-align: center; */
+    /* margin: 1rem; */
+
+    border: none;
+
+    /* REQUIRED IN NAV */
+    display: flex;
+}
+
+
+#menu {
+
+
+    /* LOCATION TO PLACE IN TOP-RIGHT */
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰"
+}
+
+#menu.open::before {
+    content: "❌"
+}
+
+.navigation {
+    display: flex;
+    font-size: 50px;
+
+
+    /* justify-content: space-evenly; */
+
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+
+    /* background-color: #a93ead; */
+    color: #fff;
+
+
+}
+
+.navigation a {
+    display: none;
+
+
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.navigation a:visited {
+    color: #ffffff;
+}
+
+
+ul {}
+
+div a {
+    font-size: 30px;
+}
+
+/* NAV A:HOVER IS REQUIRED  */
+nav a:hover {
+    /* CHANGE THE DESIGN OF THE MENU ITEM THAT IS HOVERED OVER */
+
+    /* UPDATE ME*/
+    background-color: #2f5a9b;
+    color: #ffffff;
+    text-decoration: wavy underline;
+
+}
+
+/* TRIGGERS WHEN BUTTON IS CLICKED */
+.open a {
+    display: block;
+
+}
+
+/* .active {
+    background: #979728;
+} */
+
+
+main {
+
+
+
+    /* REQRUIED IN MAIN */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.temple-images {
+    /* display: inline; */
+    display: grid;
+
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+figure {
+    width: 200px;
+
+
+
+
+}
+
+img {
+    image-rendering: auto;
+    width: 100%;
+}
+
+footer {
+    /* NOTHING??? */
+    /* border: 1px solid #000fff; */
+
+    background: #14515C;
+    color: #ffffff;
+
+    max-height: none;
+    /* min-height: 100vh; */
+
+    /* height: 85px; */
+
+    text-align: center;
+    font-size: 20px;
+}

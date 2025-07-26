@@ -1,0 +1,53 @@
+@media only screen and (min-width: 37.5em) {
+
+
+    /* HIDE HAMBURGER MENU */
+    #menu {
+        display: none;
+    }
+
+    body {
+        /* color: aqua; */
+    }
+
+
+    header {
+        display: flex;
+    }
+
+    figure {
+        width: 200px;
+        display: inline-block;
+        text-align: center;
+        /* margin: 0 auto; */
+    }
+
+    img {
+        image-rendering: auto;
+
+    }
+
+    .navigation {
+        flex-direction: row;
+
+
+        /* background-color: brown; */
+    }
+
+    .navigation a {
+        display: block;
+
+    }
+
+    .temple-images {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+
+}
+
+body {}
+
+main {}
+
+nav {}
