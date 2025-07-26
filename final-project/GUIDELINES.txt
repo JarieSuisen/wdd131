@@ -6,7 +6,7 @@ The content and subject comes from your topic proposal, and the site should be c
 
 CONTENT REFERENCES-------------------------------------
 The images and brief verbiage may be referenced from other sources, and you will need to cite these sources on a separate page.
-Link this reference page (which does not need to be styled) in the footer of your website.
+    +Link this reference page (which does not need to be styled) in the footer of your website.
 
 MINIMUM REQUIREMENTS-------------------------------------
 These are the minimum specifications for the project.
@@ -15,6 +15,8 @@ You are encouraged to go above and beyond these requirements to demonstrate your
 -Your website project must be hosted on GitHub and rendered via GitHub Pages.
 -The website must consist of at least
     -three (3) pages
+        +One page (does not need to be Styled) for Citing Sources
+            -Linked in FOOTER not NAV
     -with a common navigation and theme that appeals to the target audience.
 -The site must have significant and relevant content that supports the purpose of the site as outlined in your website plan.
 -The design must support:

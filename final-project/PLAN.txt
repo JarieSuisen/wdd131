@@ -1,11 +1,14 @@
 SUBJECT (the subject of the website):
-    -Tabletop Character Design
+    -Plan of Salvation
 
 DESCRIPTION (succinctly describe the planned content of the website):
-    -The primary page will be a general descr
+    -The primary page will be a general overview/introduction
+    -The two supporting pages will be:
+        -Description of the Kingdoms of Glory
+        -Purpose of Family History work
 
 REASON (the reason you chose this subject):
-    -
+    -It is a topic that I love and isn't likely to be maddening to keep simple.
 
 
 
