@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap'); */
 
 * {
     /* REVEAL ALL BORDERS */
@@ -11,13 +11,23 @@
 
 :root {
     --background-color: #7e4607;
-    --heading-font: "Noto Sans JP, Helvetica, sans-serif";
+    --text-color: white;
+    /* --heading-font: "Noto Sans JP, Helvetica, sans-serif"; */
 
     background: var(--background-color);
     font: var(--heading-font);
+    /* font: var(--heading-font); */
     text-align: center;
 
+    /* .noto-sans-jp-font { */
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1;
+    font-style: normal;
+    /* } */
 }
+
+
 
 body {
     /* background: #7e4607; */
