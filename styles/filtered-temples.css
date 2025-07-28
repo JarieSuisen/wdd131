@@ -1,9 +1,8 @@
-/* IMPORT FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP&family=Zen+Antique+Soft&display=swap');
-
 /* UNIVERSAL ASPECTS */
 * {
     /* REVEAL ALL BORDERS border: 1px solid #00ff00; */
+
+    font-family: "Noto Sans JP", sans-serif;
 
     --heading-font: "Zen Antique Soft, Noto Sans JP, Helvetica, sans-serif";
     /* USE THIS TO CALL THE FONT SELECTION:
@@ -188,10 +187,5 @@ section {
     width: 75%;
     margin: 0 auto;
 
-    h3 {}
-
-    p {}
-
-    img {}
 
 }
