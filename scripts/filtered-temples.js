@@ -40,7 +40,7 @@ hamButton.addEventListener("click", () => {
 });
 
 // CREATES THE TEMPLE ARRAY
-const temples = [
+const templeList = [
     {
         templeName: "Aba Nigeria",
         location: "Aba, Nigeria",
@@ -141,26 +141,25 @@ const temples = [
 //     Home – displays all the temples stored in the array.
 
 
-createtemplecard();
+createtemplecard(templeList);
 
-function createtemplecard() {
+function createtemplecard(temples) {
 
     temples.forEach(temple => {
 
-        let card = document.createElement("Section");
+        let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("p");
-        let date = document.createElement("p");
         let dedication = document.createElement("p");
         let area = document.createElement("p");
         let img = document.createElement("img");
 
-        name.textContent = temple[templeName];
-        location.innerHTML = `<span class="label">Location:</span> ${temple[location]}`;
-        dedication.innerHTML = `<span class="label">Dedicated:</span> ${temple[dedicated]}`;
-        area.innerHTML = `<span class="label">Size:</span> ${temple[area]} sq ft`;
-        img.setAttribute("src", temple[imageUrl]);
-        img.setAttribute("alt", `${temple[templeName]} Temple`);
+        name.textContent = temple["templeName"];
+        location.innerHTML = `<span class="label">Location:</span> ${temple["location"]}`;
+        dedication.innerHTML = `<span class="label">Dedicated:</span> ${temple["dedicated"]}`;
+        area.innerHTML = `<span class="label">Size:</span> ${temple["area"]} sq ft`;
+        img.setAttribute("src", temple["imageUrl"]);
+        img.setAttribute("alt", `${temple["templeName"]} Temple`);
         img.setAttribute("loading", "lazy");
 
         card.appendChild(name);
@@ -172,3 +171,67 @@ function createtemplecard() {
         document.querySelector(".templecards").appendChild(card);
     });
 };
+
+// MAKE THE BUTTON TRIGGERS
+const oldList = document.querySelector("#oldTemples");
+const newList = document.querySelector("#newTemples");
+const largeList = document.querySelector("#largeTemples");
+const smallList = document.querySelector("#smallTemples");
+const homeList = document.querySelector("#home");
+
+// Home – displays all the temples stored in the array.
+homeList.addEventListener("click", () => { createtemplecard(templeList) });
+
+
+// MAKE NEW LIST AND RETURN DATA------------------
+
+// Old – temples built before 1900
+// New – temples built after 2000
+// Large – temples larger than 90,000 square feet
+// Small – temples smaller than 10,000 square feet
+
+
+oldList.addEventListener("click", () => {
+    document.querySelector(".templecards").innerHTML = "";
+    // DO STUFF
+    let filterList = templeList.filter(i => {
+        let year = parseInt(i.dedicated.substring(0, 4));
+        return year < 1900;
+    }
+    );
+
+    createtemplecard(filterList);
+});
+
+newList.addEventListener("click", () => {
+    document.querySelector(".templecards").innerHTML = "";
+    // DO STUFF
+    let filterList = templeList.filter(i => {
+        let year = parseInt(i.dedicated.substring(0, 4));
+        return year > 2000;
+    });
+    createtemplecard(filterList);
+});
+
+largeList.addEventListener("click", () => {
+    document.querySelector(".templecards").innerHTML = "";
+    // DO STUFF
+    let filterList = templeList.filter(i => i.area > 90000
+        // DO MORE STUFF
+    );
+
+    createtemplecard(filterList);
+});
+
+smallList.addEventListener("click", () => {
+    document.querySelector(".templecards").innerHTML = "";
+    // DO STUFF
+    let filterList = templeList.filter(i => i.area < 10000
+    );
+
+    createtemplecard(filterList);
+});
+
+
+
+

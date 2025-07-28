@@ -179,3 +179,19 @@ footer {
     text-align: center;
     font-size: 20px;
 }
+
+section {
+
+    text-align: center;
+    background: lightgray;
+    /* border: solid 1px black; */
+    width: 75%;
+    margin: 0 auto;
+
+    h3 {}
+
+    p {}
+
+    img {}
+
+}

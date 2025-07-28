@@ -43,6 +43,29 @@
         grid-template-columns: repeat(4, 1fr);
     }
 
+    .templecards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+
+    }
+
+    section {
+        padding: 10px;
+        border-radius: 15px;
+        /* border: 100px; */
+        /* width: 20%; */
+        /* width: 200px; */
+        margin: 15px;
+        /* margin: 20px auto; */
+        /* diplay: flex; */
+        height: fit-content;
+
+        h3 {}
+
+        p {}
+
+        img {}
+    }
 
 }
 
