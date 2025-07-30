@@ -1,0 +1,22 @@
+* {
+    /* TYPOGRAPHY SETTINGS, calls data from HTML */
+    font-family: "Noto Sans JP", sans-serif;
+
+    /* COLOR SCHEMA SETTINGS */
+    ---colorscheme-background: #000000;
+    ---colorscheme-text: #ffffff;
+
+}
+
+
+body {
+    background: var(---colorscheme-background);
+    color: var(---colorscheme-text);
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    margin: 0 auto;
+    width: 500px;
+}
