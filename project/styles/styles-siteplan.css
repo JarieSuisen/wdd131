@@ -2,24 +2,26 @@
     /* TYPOGRAPHY SETTINGS, calls data from HTML */
     font-family: "Noto Sans JP", sans-serif;
 
-    /* COLOR SCHEMA SETTINGS */
-    ---colorscheme-background: #fff;
-    ---colorscheme-text: #000;
-    ---colorscheme-header-footer: #007da5;
+    /* COLOR SCHEMA SETTINGS
+    background: #ffffff; // background color
+    color: #000000;      // text color
+    background: #007da5; // header&footer background color
+    color: #ffffff;      // header&footer text color
+    */
 
 }
 
 
 body {
-    background: var(---colorscheme-background);
-    color: var(---colorscheme-text);
+    background: #fff;
+    color: #000;
     text-align: center;
     margin: 0 auto;
 }
 
 header,
 footer {
-    background-color: var(---colorscheme-header-footer);
+    background-color: #007da5;
     color: white;
 }
 
