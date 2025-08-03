@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GIVE A TITLE -->
+    <title>Form</title>
+
+    <!-- ADD META OF "DESCRIPTION" AND "AUTHOR" -->
+    <meta name="description" content="Form">
+    <meta name="author" content="Jacob Litster">
+
+    <!-- ADD LINKS TO FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <!-- ADD THE FOLLOWING LINE INTO ASSOCIATED CSS TO ACTUALLY USE IT:
+    font-family: "Noto Sans JP", sans-serif;
+    -->
+
+    <!-- ADD LINKS TO CSS AND JS SHEETS -->
+    <link type="text/css" rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+
+    <main>
+
+
+        <form method="get" action="review.html" class="wf1">
+
+            <!-- <fieldset> -->
+
+            <label>Product Name
+                <select id="productname" name="productname">
+                    <option value="" disabled selected>Choose a Product ...</option>
+                    <!-- THEY GET ADDED VIA JS -->
+                    <span id="productList"></span>
+
+
+                </select>
+            </label>
+
+
+
+            <!-- SECTION -->
+
+
+            <div>
+                Overall Rating
+            </div>
+            <div class="ratings">
+                <label>
+                    <span class="star">&star;</span>
+                    <input type="radio" id="rating" name="rating" value="1star" required>
+                </label>
+                <label>
+                    <span class="star">&star;&star;</span>
+                    <input type="radio" id="rating" name="rating" value="2star" required></label>
+                <label>
+                    <span class="star">&star;&star;&star;</span>
+                    <input type="radio" id="rating" name="rating" value="3star" required></label>
+                <label>
+                    <span class="star">&star;&star;&star;&star;</span>
+                    <input type="radio" id="rating" name="rating" value="4star" required>
+                </label>
+                <label>
+                    <span class="star">&star;&star;&star;&star;&star;</span>
+                    <input type="radio" id="rating" name="rating" value="5star" required></label>
+            </div>
+            <!-- SECTION -->
+
+
+
+            <label class="date">
+                Date of Installation
+                <input type="date" id="installationDate" name="installationDate" required>
+            </label>
+
+
+
+            <!-- SECTION -->
+
+
+            <div>Which features did you find useful in the product?<br>
+                <em>(Check all that apply)</em>
+            </div>
+            <div class="checks">
+                <label><input type="checkbox" id="features" name="features" value="durability">Durability</label>
+                <label><input type="checkbox" id="features" name="features" value="ease">Ease of Use</label>
+                <label><input type="checkbox" id="features" name="features" value="performance">Performance</label>
+                <label><input type="checkbox" id="features" name="features" value="design">Design</label>
+            </div>
+            <!-- SECTION -->
+
+            <label>Written Review (Optional)
+
+                <textarea id="review" name="review"></textarea>
+
+            </label>
+
+            <!-- SECTION -->
+
+            <label>Your Name (Optional)
+                <input type="text" id="name" name="name">
+            </label>
+
+            <!-- SECTION -->
+
+
+            <!-- </fieldset> -->
+
+            <input type="submit" value="Post Review">
+
+        </form>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <p>
+            &copy;<span id="currentyear"></span> - Jacob Litster - Utah, United States of America
+        </p>
+        <p>
+            Last Modified: <span id="lastModify"></span>
+        </p>
+
+    </footer>
+
+</body>
+
+</html>

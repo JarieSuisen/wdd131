@@ -1,0 +1,100 @@
+* {
+    font-family: "Noto Sans JP", sans-serif;
+    ---headfootcolor: rgb(137, 185, 228);
+}
+
+header {
+    background-color: var(---headfootcolor);
+    text-align: center;
+}
+
+form {
+    background-color: #d5f5ff;
+    padding-left: 1rem;
+}
+
+:required {
+    color: red;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+.wf1 .ratings label {
+    display: inline-block;
+    margin-right: 1rem;
+    margin-top: -2rem;
+    text-align: center;
+}
+
+
+.wf1 div {
+    padding-top: 1rem;
+    font-size: .9rem;
+}
+
+.checks {
+    margin-top: -1rem;
+
+}
+
+
+.wf1 input[type="text"],
+.wf1 input[type="date"],
+.wf1 select,
+textarea {
+    display: block;
+    border: none;
+    padding: .75rem;
+    color: #494949;
+    width: 50%;
+    max-width: 500px;
+
+}
+
+span.star {
+    display: block;
+    text-align: center;
+}
+
+input[type="submit"] {
+    margin-top: 1rem;
+    height: 3rem;
+    width: 50%;
+    max-width: 500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: var(---headfootcolor);
+    text-align: center;
+}
