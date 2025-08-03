@@ -3,8 +3,9 @@
     font-family: "Noto Sans JP", sans-serif;
 
     /* COLOR SCHEMA SETTINGS */
-    ---colorscheme-background: #000000;
-    ---colorscheme-text: #ffffff;
+    ---colorscheme-background: #fff;
+    ---colorscheme-text: #000;
+    ---colorscheme-header-footer: #007da5;
 
 }
 
@@ -16,7 +17,14 @@ body {
     margin: 0 auto;
 }
 
+header,
+footer {
+    background-color: var(---colorscheme-header-footer);
+    color: white;
+}
+
 img {
     margin: 0 auto;
     width: 500px;
+    /* display: block; */
 }
