@@ -37,13 +37,11 @@ function setProducts() {
         let item = `<option value="${productID}">${productName.toUpperCase()}</option>`;
         productSet.innerHTML += item;
     })
-
-
-
-
 };
 
 setProducts();
+
+
 
 let submitCount = Number(window.localStorage.getItem("submitCount-ls")) || 0;
 
