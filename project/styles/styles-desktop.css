@@ -1,5 +1,79 @@
 @media only screen and (min-width: 37.5em) {
 
+    /* THE FOLLOWING NEED REVERTED -------------------------------------------- */
 
-    /*  */
+    nav {
+        display: flex;
+        padding-bottom: 0.1rem;
+    }
+
+    .navi {
+        display: block;
+        justify-content: space-evenly;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .navi a {
+        display: none;
+        padding: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    /* THE ABOVE NEED REVERTED --------------------------------------------------*/
+
+    #menuButton {
+        display: none
+    }
+
+    header {
+        display: flex;
+    }
+
+    h1 {
+        width: 50%;
+    }
+
+    nav {
+        /* display: flex; */
+
+        /* display: block; */
+        /* justify-content: space-evenly; */
+        /* width: 100%; */
+        /* margin: 0 auto; */
+
+    }
+
+    .navi {
+        display: flex;
+        width: 50%;
+    }
+
+    .navi div {
+        /* display: block; */
+    }
+
+    .navi a {
+        display: block;
+        /* USED TO MAKE IT VANISH IN MOBILE MODE UNTIL ACTIVATED */
+        padding: 1rem;
+        color: #ffffff;
+        text-decoration: none;
+
+    }
+
+    /* THE FOLLOWING NEED REVERTED */
+
+
+
+
+
+
+
+
+
+
+
+
 }
