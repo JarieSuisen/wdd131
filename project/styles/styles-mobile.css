@@ -1,0 +1,92 @@
+* {
+    /* TYPOGRAPHY SETTINGS, calls data from HTML */
+    font-family: "Noto Sans JP", sans-serif;
+
+    /* COLOR SCHEMA SETTINGS
+    background: #ffffff; // background color
+    color: #000000;      // text color
+    background: #007da5; // header&footer background color
+    color: #ffffff;      // header&footer text color
+    */
+
+}
+
+
+body {
+    background: #fff;
+    color: #000;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: #007da5;
+    color: white;
+    text-align: center;
+}
+
+nav {
+    /* border: none; */
+    display: flex;
+}
+
+.navi a {
+    display: none;
+    /* ENABLE THIS TO MAKE IT VANISH WHEN NOT SUPPOSED TO SEE IT */
+    padding: 1rem;
+
+}
+
+.navi a:visited {
+    color: white;
+
+
+}
+
+.navi a:hover {
+    background-color: #56b4d3;
+    color: #000;
+}
+
+#menuButton {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+
+    /* background-color: orange; */
+}
+
+#menuButton::before {
+    content: "☰";
+}
+
+#menuButton.open::before {
+    content: "❌";
+}
+
+.open a {
+    display: block;
+
+}
+
+
+div.text {
+    padding-left: 1rem;
+}
+
+img {
+    margin: 0 auto;
+    width: 500px;
+    /* display: block; */
+}
+
+ul,li,p, br {
+    padding-top: 1rem;
+    /* text-align: left; */
+}
+
+ul {}
+
+li {
+    /* text-align: left; */
+}
