@@ -1,28 +1,5 @@
 @media only screen and (min-width: 37.5em) {
 
-    /* THE FOLLOWING NEED REVERTED -------------------------------------------- */
-
-    nav {
-        display: flex;
-        padding-bottom: 0.1rem;
-    }
-
-    .navi {
-        display: block;
-        justify-content: space-evenly;
-        width: 100%;
-        margin: 0 auto;
-    }
-
-    .navi a {
-        display: none;
-        padding: 1rem;
-        color: #ffffff;
-        text-decoration: none;
-    }
-
-    /* THE ABOVE NEED REVERTED --------------------------------------------------*/
-
     #menuButton {
         display: none
     }
@@ -35,23 +12,9 @@
         width: 50%;
     }
 
-    nav {
-        /* display: flex; */
-
-        /* display: block; */
-        /* justify-content: space-evenly; */
-        /* width: 100%; */
-        /* margin: 0 auto; */
-
-    }
-
     .navi {
         display: flex;
         width: 50%;
-    }
-
-    .navi div {
-        /* display: block; */
     }
 
     .navi a {
@@ -61,6 +24,17 @@
         color: #ffffff;
         text-decoration: none;
 
+    }
+
+    .commentForm textarea {
+        width: 75%;
+        height: 8rem;
+        max-width: 95%;
+    }
+
+    img {
+        width: auto;
+        max-height: 400px;
     }
 
     /* THE FOLLOWING NEED REVERTED */

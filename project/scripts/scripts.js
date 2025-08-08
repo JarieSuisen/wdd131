@@ -21,3 +21,30 @@ menuButton.addEventListener("click", () => {
 });
 
 // WHAT ELSE TO DO?? FUNCTIONS WHAT?? LOCAL STORAGE????????????????????
+
+let commentCount = Number(window.localStorage.getItem("commentCount")) || 0;
+
+let commentList = JSON.parse(window.localStorage.getItem("commentSubmissions")) || [];
+
+let commentButton = document.querySelector('input[type="submit"]');
+
+function countComments() {
+    commentCount++;
+    localStorage.setItem("commentCount", commentCount);
+};
+
+function storeComments() {
+
+    let newComment = document.querySelector('textarea');
+
+    commentList.push(newComment.value);
+
+    localStorage.setItem("commentSubmissions", JSON.stringify(commentList));
+
+}
+
+commentButton.addEventListener('click', function (event) {
+    // event.preventDefault();
+    countComments();
+    storeComments();
+});

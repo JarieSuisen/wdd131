@@ -33,18 +33,41 @@
             There is a Plan For You
         </h1>
 
-        <button id="menuButton"></button>
+        <button id="menuButton" name="menuButton"></button>
         <nav class="navi">
             <div><a href="index.html" id="home" title="Home">Home</a></div>
-            <div><a href="rewards.html" id="rewards" title="Rewards in Heaven">Rewards in Heaven</a></div>
             <div><a href="requirements.html" id="requirements" title="Requirements of Glory">Requirements of Glory</a>
             </div>
+            <div><a href="rewards.html" id="rewards" title="Rewards in Heaven">Rewards in Heaven</a></div>
+
+
         </nav>
     </header>
 
     <main>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <!-- IMAGE OR BACKGROUND IMAGE HERE??? -->
+        <div class="image">
+            <img src="images/christus-at-temple-square.webp" id="sun" title="christus" alt="Christus at Temple Square"
+                width=500px loading="lazy">
+            <br>Christus Statue in Salt Lake City
+        </div>
+
 
         <div class="text">
             <p>
@@ -69,10 +92,10 @@
             If you have wondered things like that, then hopefully this Plan will bring hope to you.
             </p>
 
-            <h3>
+            <h2>
                 "Okay, that sounds interesting. But why should I care about this? It sounds like just another hopeful
                 afterlife."
-            </h3>
+            </h2>
             <p>
                 Hey, I get it. There are a LOT of ideas out there about what might be the truth. If you would like to
                 learn
@@ -83,9 +106,9 @@
             <a href="rewards.html">Reward Descriptions</a> (Okay, maybe that sounds like a sweestakes, but please take a
             look anyways!)
 
-            <h3>
+            <h2>
                 "So, what do I need to do?"
-            </h3>
+            </h2>
             <p>
                 Good question! And the simple answer is "just listen to God and follow His guidance". However, since a
                 critical part of the plan is to be able to choose for yourself He requires us to learn and teach each
@@ -109,12 +132,46 @@
             <a href="requirements.html">What To Do</a> to get there. (It's actually easier than it seems!)
         </div>
 
+        <div>
+            <p class="text">
+                As I said, this is just a simple introduction to a selection of our beliefs. I hope that I may have
+                answered some
+                questions and opened up some new ones. If you would like to learn more, the most effective way would be
+                to get in contact with the missionaries. You can do so yourself by visiting <a
+                    href="https://www.churchofjesuschrist.org/comeuntochrist/contact-us">here to request meeting the
+                    missionaries</a>.
+                <br>
+                <br>
+                Also, I'd appreciate any thoughts, questions, whatever. If you have anything you wish to share, go ahead
+                and send it on!
+            </p>
+
+            <!-- INSERT THINGIE HERE -->
+            <div class="commentForm">
+                <h2>Comment Drop Box</h2>
+                <form method="get" action="confirmation.html" class="confirmationform">
+                    <label>Your Name (optional)
+                        <input type="text" id="name" name="name">
+                    </label>
+                    <label class="commentsection">Comments, Questions, etc. *
+                        <textarea id="commentary" name="commentary" required></textarea>
+                    </label>
+                    <div class="submitbutton">
+                        <input type="submit" value="Deposit Comment">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
     </main>
 
     <footer>
         <p>
             &copy;<span id="currentyear"></span> - Jacob Litster - Utah, United States of America
         </p>
+
+
         <p>
             Last Modified: <span id="lastModify"></span>
         </p>
